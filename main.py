@@ -8,8 +8,8 @@ from aiogram.types import Message
 from aiogram.filters import CommandStart
 
 import os
-TOKEN = os.getenv("TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID"))
+TOKEN = os.getenv("7687065285:AAHFXToEFwtaAW-WcDEgV0Ydzj_ZamYYoFw")
+OWNER_ID = int(os.getenv("7438704299"))
 
 bot = Bot(token=TOKEN, parse_mode=ParseMode.HTML)
 dp = Dispatcher(storage=MemoryStorage())
